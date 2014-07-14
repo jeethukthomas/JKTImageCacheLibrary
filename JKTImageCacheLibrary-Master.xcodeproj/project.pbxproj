@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		488542D11973D58C00669D5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 488542D01973D58C00669D5D /* Foundation.framework */; };
+		488542D31973D58C00669D5D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 488542D21973D58C00669D5D /* CoreGraphics.framework */; };
+		488542D51973D58C00669D5D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 488542D41973D58C00669D5D /* UIKit.framework */; };
+		488542DB1973D58C00669D5D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 488542D91973D58C00669D5D /* InfoPlist.strings */; };
+		488542DD1973D58C00669D5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 488542DC1973D58C00669D5D /* main.m */; };
+		488542E11973D58C00669D5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 488542E01973D58C00669D5D /* AppDelegate.m */; };
+		488542E41973D58C00669D5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 488542E21973D58C00669D5D /* Main.storyboard */; };
+		488542E71973D58C00669D5D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 488542E61973D58C00669D5D /* ViewController.m */; };
+		488542E91973D58C00669D5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 488542E81973D58C00669D5D /* Images.xcassets */; };
+		488542F01973D58D00669D5D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 488542EF1973D58D00669D5D /* XCTest.framework */; };
+		488542F11973D58D00669D5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 488542D01973D58C00669D5D /* Foundation.framework */; };
+		488542F21973D58D00669D5D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 488542D41973D58C00669D5D /* UIKit.framework */; };
+		488542FA1973D58D00669D5D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 488542F81973D58D00669D5D /* InfoPlist.strings */; };
+		488542FC1973D58D00669D5D /* JKTImageCacheLibrary_MasterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 488542FB1973D58D00669D5D /* JKTImageCacheLibrary_MasterTests.m */; };
+		488543081973D5C600669D5D /* JKTImageCacheLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 488543071973D5C600669D5D /* JKTImageCacheLibrary.m */; };
+		4885430A1973D6DF00669D5D /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 488543091973D6DF00669D5D /* image.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		488542F31973D58D00669D5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 488542C51973D58C00669D5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 488542CC1973D58C00669D5D;
+			remoteInfo = "JKTImageCacheLibrary-Master";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		488542CD1973D58C00669D5D /* JKTImageCacheLibrary-Master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JKTImageCacheLibrary-Master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		488542D01973D58C00669D5D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		488542D21973D58C00669D5D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		488542D41973D58C00669D5D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		488542D81973D58C00669D5D /* JKTImageCacheLibrary-Master-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JKTImageCacheLibrary-Master-Info.plist"; sourceTree = "<group>"; };
+		488542DA1973D58C00669D5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		488542DC1973D58C00669D5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		488542DE1973D58C00669D5D /* JKTImageCacheLibrary-Master-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JKTImageCacheLibrary-Master-Prefix.pch"; sourceTree = "<group>"; };
+		488542DF1973D58C00669D5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		488542E01973D58C00669D5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		488542E31973D58C00669D5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		488542E51973D58C00669D5D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		488542E61973D58C00669D5D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		488542E81973D58C00669D5D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		488542EE1973D58D00669D5D /* JKTImageCacheLibrary-MasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JKTImageCacheLibrary-MasterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		488542EF1973D58D00669D5D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		488542F71973D58D00669D5D /* JKTImageCacheLibrary-MasterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JKTImageCacheLibrary-MasterTests-Info.plist"; sourceTree = "<group>"; };
+		488542F91973D58D00669D5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		488542FB1973D58D00669D5D /* JKTImageCacheLibrary_MasterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKTImageCacheLibrary_MasterTests.m; sourceTree = "<group>"; };
+		488543061973D5C600669D5D /* JKTImageCacheLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKTImageCacheLibrary.h; sourceTree = "<group>"; };
+		488543071973D5C600669D5D /* JKTImageCacheLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKTImageCacheLibrary.m; sourceTree = "<group>"; };
+		488543091973D6DF00669D5D /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		488542CA1973D58C00669D5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488542D31973D58C00669D5D /* CoreGraphics.framework in Frameworks */,
+				488542D51973D58C00669D5D /* UIKit.framework in Frameworks */,
+				488542D11973D58C00669D5D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488542EB1973D58D00669D5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488542F01973D58D00669D5D /* XCTest.framework in Frameworks */,
+				488542F21973D58D00669D5D /* UIKit.framework in Frameworks */,
+				488542F11973D58D00669D5D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		488542C41973D58C00669D5D = {
+			isa = PBXGroup;
+			children = (
+				488542D61973D58C00669D5D /* JKTImageCacheLibrary-Master */,
+				488542F51973D58D00669D5D /* JKTImageCacheLibrary-MasterTests */,
+				488542CF1973D58C00669D5D /* Frameworks */,
+				488542CE1973D58C00669D5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		488542CE1973D58C00669D5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				488542CD1973D58C00669D5D /* JKTImageCacheLibrary-Master.app */,
+				488542EE1973D58D00669D5D /* JKTImageCacheLibrary-MasterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		488542CF1973D58C00669D5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				488542D01973D58C00669D5D /* Foundation.framework */,
+				488542D21973D58C00669D5D /* CoreGraphics.framework */,
+				488542D41973D58C00669D5D /* UIKit.framework */,
+				488542EF1973D58D00669D5D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		488542D61973D58C00669D5D /* JKTImageCacheLibrary-Master */ = {
+			isa = PBXGroup;
+			children = (
+				488543051973D5C600669D5D /* JKTImageCacheLibrary */,
+				488542DF1973D58C00669D5D /* AppDelegate.h */,
+				488542E01973D58C00669D5D /* AppDelegate.m */,
+				488542E21973D58C00669D5D /* Main.storyboard */,
+				488542E51973D58C00669D5D /* ViewController.h */,
+				488542E61973D58C00669D5D /* ViewController.m */,
+				488542E81973D58C00669D5D /* Images.xcassets */,
+				488542D71973D58C00669D5D /* Supporting Files */,
+			);
+			path = "JKTImageCacheLibrary-Master";
+			sourceTree = "<group>";
+		};
+		488542D71973D58C00669D5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				488542D81973D58C00669D5D /* JKTImageCacheLibrary-Master-Info.plist */,
+				488542D91973D58C00669D5D /* InfoPlist.strings */,
+				488542DC1973D58C00669D5D /* main.m */,
+				488542DE1973D58C00669D5D /* JKTImageCacheLibrary-Master-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		488542F51973D58D00669D5D /* JKTImageCacheLibrary-MasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				488542FB1973D58D00669D5D /* JKTImageCacheLibrary_MasterTests.m */,
+				488542F61973D58D00669D5D /* Supporting Files */,
+			);
+			path = "JKTImageCacheLibrary-MasterTests";
+			sourceTree = "<group>";
+		};
+		488542F61973D58D00669D5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				488542F71973D58D00669D5D /* JKTImageCacheLibrary-MasterTests-Info.plist */,
+				488542F81973D58D00669D5D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		488543051973D5C600669D5D /* JKTImageCacheLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				488543091973D6DF00669D5D /* image.png */,
+				488543061973D5C600669D5D /* JKTImageCacheLibrary.h */,
+				488543071973D5C600669D5D /* JKTImageCacheLibrary.m */,
+			);
+			path = JKTImageCacheLibrary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		488542CC1973D58C00669D5D /* JKTImageCacheLibrary-Master */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 488542FF1973D58D00669D5D /* Build configuration list for PBXNativeTarget "JKTImageCacheLibrary-Master" */;
+			buildPhases = (
+				488542C91973D58C00669D5D /* Sources */,
+				488542CA1973D58C00669D5D /* Frameworks */,
+				488542CB1973D58C00669D5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JKTImageCacheLibrary-Master";
+			productName = "JKTImageCacheLibrary-Master";
+			productReference = 488542CD1973D58C00669D5D /* JKTImageCacheLibrary-Master.app */;
+			productType = "com.apple.product-type.application";
+		};
+		488542ED1973D58D00669D5D /* JKTImageCacheLibrary-MasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 488543021973D58D00669D5D /* Build configuration list for PBXNativeTarget "JKTImageCacheLibrary-MasterTests" */;
+			buildPhases = (
+				488542EA1973D58D00669D5D /* Sources */,
+				488542EB1973D58D00669D5D /* Frameworks */,
+				488542EC1973D58D00669D5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				488542F41973D58D00669D5D /* PBXTargetDependency */,
+			);
+			name = "JKTImageCacheLibrary-MasterTests";
+			productName = "JKTImageCacheLibrary-MasterTests";
+			productReference = 488542EE1973D58D00669D5D /* JKTImageCacheLibrary-MasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		488542C51973D58C00669D5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = JKT;
+				TargetAttributes = {
+					488542ED1973D58D00669D5D = {
+						TestTargetID = 488542CC1973D58C00669D5D;
+					};
+				};
+			};
+			buildConfigurationList = 488542C81973D58C00669D5D /* Build configuration list for PBXProject "JKTImageCacheLibrary-Master" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 488542C41973D58C00669D5D;
+			productRefGroup = 488542CE1973D58C00669D5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				488542CC1973D58C00669D5D /* JKTImageCacheLibrary-Master */,
+				488542ED1973D58D00669D5D /* JKTImageCacheLibrary-MasterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		488542CB1973D58C00669D5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488542E91973D58C00669D5D /* Images.xcassets in Resources */,
+				488542DB1973D58C00669D5D /* InfoPlist.strings in Resources */,
+				488542E41973D58C00669D5D /* Main.storyboard in Resources */,
+				4885430A1973D6DF00669D5D /* image.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488542EC1973D58D00669D5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488542FA1973D58D00669D5D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		488542C91973D58C00669D5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488542E71973D58C00669D5D /* ViewController.m in Sources */,
+				488542E11973D58C00669D5D /* AppDelegate.m in Sources */,
+				488543081973D5C600669D5D /* JKTImageCacheLibrary.m in Sources */,
+				488542DD1973D58C00669D5D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488542EA1973D58D00669D5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488542FC1973D58D00669D5D /* JKTImageCacheLibrary_MasterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		488542F41973D58D00669D5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 488542CC1973D58C00669D5D /* JKTImageCacheLibrary-Master */;
+			targetProxy = 488542F31973D58D00669D5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		488542D91973D58C00669D5D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				488542DA1973D58C00669D5D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		488542E21973D58C00669D5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				488542E31973D58C00669D5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		488542F81973D58D00669D5D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				488542F91973D58D00669D5D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		488542FD1973D58D00669D5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		488542FE1973D58D00669D5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		488543001973D58D00669D5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JKTImageCacheLibrary-Master/JKTImageCacheLibrary-Master-Prefix.pch";
+				INFOPLIST_FILE = "JKTImageCacheLibrary-Master/JKTImageCacheLibrary-Master-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		488543011973D58D00669D5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JKTImageCacheLibrary-Master/JKTImageCacheLibrary-Master-Prefix.pch";
+				INFOPLIST_FILE = "JKTImageCacheLibrary-Master/JKTImageCacheLibrary-Master-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		488543031973D58D00669D5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JKTImageCacheLibrary-Master.app/JKTImageCacheLibrary-Master";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JKTImageCacheLibrary-Master/JKTImageCacheLibrary-Master-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JKTImageCacheLibrary-MasterTests/JKTImageCacheLibrary-MasterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		488543041973D58D00669D5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JKTImageCacheLibrary-Master.app/JKTImageCacheLibrary-Master";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JKTImageCacheLibrary-Master/JKTImageCacheLibrary-Master-Prefix.pch";
+				INFOPLIST_FILE = "JKTImageCacheLibrary-MasterTests/JKTImageCacheLibrary-MasterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		488542C81973D58C00669D5D /* Build configuration list for PBXProject "JKTImageCacheLibrary-Master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				488542FD1973D58D00669D5D /* Debug */,
+				488542FE1973D58D00669D5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		488542FF1973D58D00669D5D /* Build configuration list for PBXNativeTarget "JKTImageCacheLibrary-Master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				488543001973D58D00669D5D /* Debug */,
+				488543011973D58D00669D5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		488543021973D58D00669D5D /* Build configuration list for PBXNativeTarget "JKTImageCacheLibrary-MasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				488543031973D58D00669D5D /* Debug */,
+				488543041973D58D00669D5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 488542C51973D58C00669D5D /* Project object */;
+}
