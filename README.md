@@ -5,8 +5,8 @@ JKTImageCacheLibrary automatically downloads + cache + placeholder + sets ImageV
 
 
 Set Placeholder :
-[<jkt> setPlaceHolder:<UIImage>]; //Optional
+[jkt setPlaceHolder:UIImage]; //Optional
 
-[<jkt> setImageIn:<UIImageView> withURL:<URL_String>];
+[jkt setImageIn:UIImageView withURL:URL_String];
 
 
