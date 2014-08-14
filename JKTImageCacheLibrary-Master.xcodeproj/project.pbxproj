@@ -23,6 +23,7 @@
 		488542FC1973D58D00669D5D /* JKTImageCacheLibrary_MasterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 488542FB1973D58D00669D5D /* JKTImageCacheLibrary_MasterTests.m */; };
 		488543081973D5C600669D5D /* JKTImageCacheLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 488543071973D5C600669D5D /* JKTImageCacheLibrary.m */; };
 		4885430A1973D6DF00669D5D /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 488543091973D6DF00669D5D /* image.png */; };
+		48BF4D12198229C300A4F9B7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48BF4D11198229C300A4F9B7 /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		488543061973D5C600669D5D /* JKTImageCacheLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKTImageCacheLibrary.h; sourceTree = "<group>"; };
 		488543071973D5C600669D5D /* JKTImageCacheLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKTImageCacheLibrary.m; sourceTree = "<group>"; };
 		488543091973D6DF00669D5D /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		48BF4D11198229C300A4F9B7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48BF4D12198229C300A4F9B7 /* Security.framework in Frameworks */,
 				488542D31973D58C00669D5D /* CoreGraphics.framework in Frameworks */,
 				488542D51973D58C00669D5D /* UIKit.framework in Frameworks */,
 				488542D11973D58C00669D5D /* Foundation.framework in Frameworks */,
@@ -106,6 +109,7 @@
 		488542CF1973D58C00669D5D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				48BF4D11198229C300A4F9B7 /* Security.framework */,
 				488542D01973D58C00669D5D /* Foundation.framework */,
 				488542D21973D58C00669D5D /* CoreGraphics.framework */,
 				488542D41973D58C00669D5D /* UIKit.framework */,
